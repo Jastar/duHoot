@@ -1,0 +1,143 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  section#whatarewe form select#country, section#whatarewe form select#education {
+    max-width: 340px; }
+  section#whatarewe form select#education {
+    margin: 20px auto 0px auto; }
+  section#whatarewe form input#searching {
+    max-width: 280px; }
+
+  section#posts div.wrapper5 div.col-lg-3 img, section#posts div.wrapper6 div.col-lg-3 img, section#posts div.wrapper11 div.col-lg-3 img {
+    margin-left: 15px; }
+  section#posts div.wrapper5 figcaption, section#posts div.wrapper6 figcaption, section#posts div.wrapper11 figcaption {
+    left: 7%; }
+  section#posts div.wrapper5, section#posts div.wrapper11 {
+    margin-bottom: 45px; }
+    section#posts div.wrapper5 div.col-lg-3 img, section#posts div.wrapper11 div.col-lg-3 img {
+      margin-left: 15px; }
+    section#posts div.wrapper5 figcaption, section#posts div.wrapper11 figcaption {
+      top: 27%;
+      left: 6%; }
+
+  section#offer div.hovered {
+    width: 100%;
+    display: block; }
+  section#offer hr {
+    margin: 20px auto;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+  section#offer div.col-lg-6 {
+    text-align: center; }
+
+  footer form div.footerform {
+    max-width: 400px; }
+    footer form div.footerform span {
+      margin: 0 10px; }
+    footer form div.footerform input[type="email"] {
+      max-width: 210px; }
+    footer form div.footerform button[type="submit"] {
+      margin: 0 auto 0 5px; } }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  header button#menu {
+    text-align: right; }
+  header ul#navigationMD li a {
+    padding: 10px 0px; }
+
+  section#filter h6 {
+    margin-left: 60px; }
+  section#filter ul.filter {
+    margin-left: 150px; } }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  header form {
+    max-width: 210px; }
+    header form input[type="search"] {
+      max-width: 95px; }
+
+  section#whatarewe form select#country, section#whatarewe form select#education {
+    max-width: 220px; }
+  section#whatarewe form select#education {
+    max-width: 260px;
+    margin: 0px auto 0px 15px; }
+  section#whatarewe form input#searching {
+    max-width: 440px; }
+
+  section#filter h6 {
+    margin-left: auto; }
+  section#filter ul.filter {
+    margin-left: auto; }
+
+  section#posts div.wrapper4, section#posts div.wrapper7 {
+    margin-top: 0px; }
+    section#posts div.wrapper4 figcaption, section#posts div.wrapper7 figcaption {
+      top: 33%; }
+
+  section#offer div.col-lg-6 p {
+    text-align: left;
+    margin: 0 auto 140px 20px; }
+  section#offer div.text-right {
+    text-align: right; }
+
+  footer form div.footerform {
+    max-width: 500px; }
+    footer form div.footerform span {
+      margin: 0 20px; }
+    footer form div.footerform input[type="email"] {
+      max-width: 275px; }
+    footer form div.footerform button[type="submit"] {
+      margin: 0 auto 0 20px; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  header form {
+    max-width: 239px; }
+    header form input[type="search"] {
+      max-width: 100px; }
+
+  section#posts div.wrapper4, section#posts div.wrapper7 {
+    margin-top: 45px; }
+    section#posts div.wrapper4 figcaption, section#posts div.wrapper7 figcaption {
+      top: 41%; }
+  section#posts div.wrapper5 {
+    margin-bottom: 0px; }
+    section#posts div.wrapper5 div.col-lg-3 img {
+      margin-left: 15px; }
+    section#posts div.wrapper5 figcaption {
+      top: 31%;
+      left: 7%; }
+
+  section#offer div.hovered {
+    width: auto;
+    display: inline-block; }
+  section#offer hr {
+    margin: 0 auto;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg); }
+
+  section#offer div.col-lg-6 p {
+    margin: 0 40px 140px 30px; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  header form {
+    max-width: 225px; }
+    header form input[type="search"] {
+      max-width: 100px; }
+
+  section#posts div.wrapper5 div.col-lg-3 img, section#posts div.wrapper6 div.col-lg-3 img, section#posts div.wrapper11 div.col-lg-3 img {
+    margin-left: auto; }
+  section#posts div.wrapper5 figcaption, section#posts div.wrapper6 figcaption, section#posts div.wrapper11 figcaption {
+    left: 11%; }
+  section#posts div.wrapper5 div.col-lg-3 img {
+    margin-left: auto; }
+  section#posts div.wrapper5 figcaption {
+    top: 27%;
+    left: 11%; } }
